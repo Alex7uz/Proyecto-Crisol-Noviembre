@@ -10,13 +10,13 @@ header{margin-top: 1px;   }
     justify-content: center; align-items: center; 
     padding: 1%;
     max-width: 100%; width: 100%;
-    border-bottom: 1px rgb(255, 255, 255) dotted;  margin-bottom: 3em; 
+    border-bottom: 1px rgb(255, 255, 255) dotted;  margin-bottom: 1em; 
     
        & h1 { 
         font-size: 1.2em; /* Tamaño del título en em (ajustado) */
         text-align: center; /* Centrar el título */
         /* padding: 2% 0; Espaciado en porcentaje (ajustado) */
-        margin: .2%;
+        margin: .2%; 
       }
       & .titulos2 { 
         font-size: 1.2em; /* Tamaño del título en em (ajustado) */
@@ -54,3 +54,11 @@ main{
     .column{ 
         flex: 100%;
 }
+@media  (width < 400px ) {
+   h2{font-size: medium;
+    padding: 1%;}
+   h3{font-size: medium;
+padding: 1%;}
+}
+
+
